@@ -1,0 +1,4 @@
+TOPOLOGIE LOGICZNE:
+- punkt-punkt - dane przesyłane są od jednego urządzenia do drugiego bezpośrednio np. komputer z przełącznikiem, lub pośrednio np. dwa routery (wykorzystuje się w topologii fizycznej gwiazdy)
+- przekazywania żetonu (tokken passing) - dane przekazywane są kolejno do urządzeń połączonych w sieć. Urządzenie, które otrzyma porcję danych, analizuje czy są one kierowane do niego czy też nie. Jeśli dane nie są do niego adresowane, przekazuje je dalej, do sąsiednego urządzenia.  (wykorzystuje się w topologii fizycznej pierścienia) 
+-
