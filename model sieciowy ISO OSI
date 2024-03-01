@@ -8,3 +8,4 @@ aplikacji na urządzeniu docelowym, jak i pozwalającymi złożyć je na urządz
 (3)- Warstwa sieci - segmenty danych są wzbogacane o nagłówki sieci zawierające adres IP źródła i celu. W ten sposób tworzy się pakiety danych. Głównym zadaniem warstwy sieciowej jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w niej pakietów.
 (2)- Warstwa łącza danych - 
 (1)- Warstwa fizyczna - 
+Enkapsulacja danych 
