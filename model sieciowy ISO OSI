@@ -1,9 +1,10 @@
 Model ISO OSI (Open System Interconnection Reference Model) został stworzony w celu normalizacji zasad komunikacji w sieci. Model ten został przygotowany z myślą o tworzeniu tzw. systemu otwartego, który nie będzie należał do żadnej zamkniętej sieci.
 Model ten jest modelem poglądowym (teoretycznym) i został podzielony na 7 warstw.
-(7)- Warstwa aplikacji 
-(6)- 
-(5)- 
-(4)- 
-(3)- 
-(2)- 
-(1)- 
+(7)- Warstwa aplikacji - umożliwia komunikację z użytkownikiem (strony WWW), poczta elektroniczna.
+(6)- Warstwa prezentacji - zajmuje się konwersją danych i definiowaniem formatu, odpowiada również za odpowiednie kodowanie danych (szyfrowanie) na urządzeniu źródłowym i ich odkodowanie na urządzeniu docelowym  
+(5)- Warstwa sesji - zarządza sesjami użytkowników korzystających np. ze stron WWW czy komunikacji video.
+(4)- Warstwa transportu - głównym zadaniem jest sprawna obsługa komunikacji pomiędzy urządzeniami. W warstwie tej dane dzielone są na mniejsze części (segmentowanie), następnie opatrywane dodatkowymi informacjiami pozwalającymi zarówno przydzielić je do właściwej
+aplikacji na urządzeniu docelowym, jak i pozwalającymi złożyć je na urządzeniu docelowymw odpowiedniej kolejności.
+(3)- Warstwa sieci - segmenty danych są wzbogacane o nagłówki sieci zawierające adres IP źródła i celu. W ten sposób tworzy się pakiety danych. Głównym zadaniem warstwy sieciowej jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w niej pakietów.
+(2)- Warstwa łącza danych - 
+(1)- Warstwa fizyczna - 
