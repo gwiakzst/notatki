@@ -1,1 +1,9 @@
-
+Model ISO OSI (Open System Interconnection Reference Model) został stworzony w celu normalizacji zasad komunikacji w sieci. Model ten został przygotowany z myślą o tworzeniu tzw. systemu otwartego, który nie będzie należał do żadnej zamkniętej sieci.
+Model ten jest modelem poglądowym (teoretycznym) i został podzielony na 7 warstw.
+(7)- Warstwa aplikacji 
+(6)- 
+(5)- 
+(4)- 
+(3)- 
+(2)- 
+(1)- 
