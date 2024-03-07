@@ -6,6 +6,14 @@ Model ten jest modelem poglądowym (teoretycznym) i został podzielony na 7 wars
 (4)- Warstwa transportu - głównym zadaniem jest sprawna obsługa komunikacji pomiędzy urządzeniami. W warstwie tej dane dzielone są na mniejsze części (segmentowanie), następnie opatrywane dodatkowymi informacjiami pozwalającymi zarówno przydzielić je do właściwej
 aplikacji na urządzeniu docelowym, jak i pozwalającymi złożyć je na urządzeniu docelowymw odpowiedniej kolejności.
 (3)- Warstwa sieci - segmenty danych są wzbogacane o nagłówki sieci zawierające adres IP źródła i celu. W ten sposób tworzy się pakiety danych. Głównym zadaniem warstwy sieciowej jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w niej pakietów.
-(2)- Warstwa łącza danych - 
-(1)- Warstwa fizyczna - 
-Enkapsulacja danych 
+(2)- Warstwa łącza danych - głównym zadaniem jest wykrywanie i korygowanie bledowna ktore narazona jest komunikacja w sieci. Dodatkowo zajmuje się podziałem
+wysyłanego pakietu na ramki które posiadają informacje o architekturze sieci.
+(1)- Warstwa fizyczna - koduje dane do postaci czystych bitów (0 i 1) i przesyła je poprzez medium transmisyjne do odpowiednich urządzeń 
+Enkapsulacja danych - jest to przechodzenie (zamiana) danych z warstwy wyższej do warstwy niższej
+
+
+Model sieciowy TCP/IP:
+- Warstwa aplikacji (warstwa sesji, prezentacji i aplikacji w modelu ISO) - zajmuje się reprezentacją danych dla użytkownika oraz ich kodowanie 
+- Warstwa transportowa (warstwa transportowa w modelu ISO) - zapewnia komunikację pomiędzy różnymi urządzeniami w sieci 
+- Warstwa internetu (warstwa sieci w modelu ISO) - zapewnia najlepszą trasę dla przepływu pakietów 
+- Warstwa dostępu do sieci (warstwa fizyczna i łącza danych w modelu ISO) - kontroluję urządzenia fizyczne i media  
